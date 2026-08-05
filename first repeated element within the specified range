@@ -11,7 +11,7 @@ public class Main
 		}
 		int s=sc.nextInt();
 		int e=sc.nextInt();
-		List<Integer>list=new ArrayList<>();
+		
 		for(int i=s;i<e;i++)
 		{
 		  int c=0;
