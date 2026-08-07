@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String s=sc.nextLine();
+		int n=sc.nextInt();
+		while(n>0)
+		{
+		int st=sc.nextInt();
+		int e=sc.nextInt();
+		int c=0;
+		for(int i=st;i<e-1;i++)
+		{
+		    if(s.charAt(i)=='*')
+		    {
+		        c++;
+		    }
+		}
+		System.out.println(c);
+		n--;
+		}
+	}
+}
