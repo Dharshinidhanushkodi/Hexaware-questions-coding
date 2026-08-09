@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+	    String s=sc.nextLine();
+	    String a[]=s.split(" ");
+	    int k=sc.nextInt();
+	    int c=0;
+	    for(int i=0;i<a.length;i++)
+	    {
+	        int n=a[i].length();
+	        if(n==k)
+	        {
+	            c++;
+	        }
+	    }
+	  System.out.print(c);  
+	         
+}
+}
